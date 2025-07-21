@@ -1,0 +1,1540 @@
+/* /* 
+/* updated signup */
+.signup-wrapper {
+    width: 100%;
+    min-height: 100vh; 
+    background-color: #f5f7fb;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+  }
+  
+  /* Signup Box */
+  .signup-box {
+    width: 95%;
+    max-width: 1200px; 
+    height: 95vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Left Section  */
+  .signup-left {
+    width: 40%;
+    background-color: #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+  }
+  
+  .signup-left-logo {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .signup-left-heading {
+    color: white;
+    font-size: x-large;
+    margin-top: -70px;
+    font-display: inherit;
+  }
+  
+  .signup-left-para {
+    color: white;
+    font-size: large;
+    margin-top: -10px;
+    text-align: center;
+  }
+  
+  /* Right Section  */
+  .signup-right {
+    /* width: 60%;  */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 40px; 
+    overflow: auto; 
+    scrollbar-width: none; 
+  }
+  
+  .signup-right::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  /* Form Container */
+  .signup-pd {
+    width: 100%;
+    max-width: 400px; 
+    display: flex;
+    flex-direction: column;
+    gap: 7px; 
+  }
+  
+  /* Input Fields */
+  .signup-pd input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .signup-pd input:hover {
+    transform: scale(1.05); 
+  }
+  
+  /* Display Picture */
+  .your-dp {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #960d0d; 
+    display: block;
+    margin: 5px auto; 
+  }
+  
+  /* Teaching Details Row */
+  .teaching-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .teaching-row input,
+  .teaching-row select {
+    flex: 1;
+    min-width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 8px 12px;
+    background-color: #960d0d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin:5px;
+  }
+
+  .buttonCont {
+    display: flex;
+    justify-content: center;  
+    width: 100%;             
+    margin-top: 40px;
+  }
+  
+  .registerbtn {
+    background-color: rgb(25, 127, 147);
+    color: white;
+    font-size: 20px;          
+    padding: 15px 30px;       
+    width: 50%;               
+    max-width: 300px;         
+    border: none;
+    border-radius: 5px;
+    text-align: center;       
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spinner {
+    animation: spin 1s linear infinite;
+    margin-right: 7px;
+  }
+  
+  .registerbtn:hover {
+    background-color: rgb(20, 100, 120);
+    transform: scale(1.05); 
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .login-link {
+    text-align: center; /* Center the text */
+    margin-top: 10px; /* Add some spacing above the text */
+    font-size: 14px; /* Adjust font size */
+    color: #333; /* Text color */
+  }
+  
+  .login-link span {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .login-link span:hover {
+    text-decoration: underline;
+  }
+
+
+  /* Login */
+
+
+
+
+
+  .signup-wrapper1
+{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  padding: 20px; 
+  background-color: #f5f5f5; 
+
+}
+
+.signup-box1
+{
+  display: flex;
+  max-width: 1200px;
+  width: 100%; 
+  background-color: white; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+    
+
+}
+
+.signup-left1
+{   
+    width: 40%;
+    background-color: #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+  }
+
+.signup-left-logo1
+{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding:10px;
+    box-sizing: border-box;
+}
+.signup-left-heading1
+{
+    color: white;
+    font-size:x-large;
+    margin-top: -70px;
+    font-display:inherit;
+}
+
+.signup-left-para1
+{
+    color: white;
+    font-size:large;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.signup-right1 {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  padding: 40px; 
+  }
+
+  
+  
+  .signup-right1::-webkit-scrollbar {
+    display: none;   
+  }
+  
+.signup-pd1
+{
+  width: 100%;
+  max-width: 400px; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+
+}
+.signup-pd1 input
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #6d1010;
+  border-radius: 5px;
+  font-size: 16px;
+    
+    
+    
+    
+}
+.signup-pd1 input:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+/* Dashboard */
+
+/* .dashboard-main-container
+{
+  height: 100vh;
+  width:100%;
+  background: linear-gradient(to right, #4E65FF, #92EFFD);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.dashboard-container 
+{
+  width:95%;
+  height : 95vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+
+.nav-container
+{
+  width:20%;
+  height: 95vh;
+  background-color: #333;
+
+}
+
+.main-container
+{
+  width:80%;
+  height: 95vh;
+  background-color: white;
+} */
+
+
+/* experiment for dashboard */
+
+
+/* Dashboard Container */
+.dashboard {
+  padding: 40px;
+  max-width: 1200px;
+  margin-top: 100px;
+  margin: 140px;;
+  font-family: Arial, sans-serif;
+}
+
+/* Dashboard Heading */
+.dashboard h1 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Take Attendance Section */
+.take-attendance {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  
+}
+
+.take-attendance h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.take-attendance label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.take-attendance select,
+.take-attendance input {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.take-attendance button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.take-attendance button:hover {
+  background-color: #0056b3;
+}
+
+/* View Attendance Records Section */
+.view-attendance {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.view-attendance h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.view-attendance button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.view-attendance button:hover {
+  background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 10px;
+  }
+
+  .take-attendance,
+  .view-attendance {
+    padding: 15px;
+  }
+
+  .take-attendance select,
+  .take-attendance input {
+    font-size: 14px;
+  }
+
+  .take-attendance button,
+  .view-attendance button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+.expired-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap:15px;
+  flex-wrap: wrap;
+}
+
+.expired-buttons button {
+  padding: 8px 16px;
+  margin: 5px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* branch button */
+
+.branch-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.branch-button {
+  padding: 10px 15px;
+  background-color: #0056b3;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+.branch-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* QR Code */
+
+
+.qr-code-cont {
+  display: flex;
+  align-items: center; /* Vertically center the QR code and timer */
+  gap: 20px; /* Space between QR code and timer */
+}
+
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff0000;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.qr-code {
+  /* Ensure the QR code container doesn't take up all the space */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.qrp {
+  background-color: #f9f9f9; /* Light background color */
+  padding: 15px; /* Add padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-size: 16px; /* Font size for details */
+  color: #333; /* Text color */
+  width: 200px; /* Set a fixed width for the details section */
+}
+
+.qrp p {
+  margin: 8px 0; /* Add margin between paragraphs */
+} */
+
+
+
+
+/* Enhanced UI/UX CSS Styles - Modern, Creative, Technical Vibe */
+
+/* Animation Keyframes */
+{}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+:root {
+  --primary-color: #007bff;
+  --accent-color: #17c3b2;
+  --bg-color: #f5f7fb;
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --card-bg: white;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* General Enhancements */
+button,
+.registerbtn {
+  box-shadow: var(--box-shadow);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover,
+.registerbtn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* LOGIN & SIGNUP Enhancements */
+.signup-box,
+.signup-box1 {
+  animation: fadeIn 0.6s ease-out;
+  background: linear-gradient(145deg, #ffffff, #e8effc);
+  box-shadow: var(--box-shadow);
+}
+
+.signup-left,
+.signup-left1 {
+  background: linear-gradient(135deg, var(--primary-color), #0056b3);
+  color: white;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.signup-left-logo,
+.signup-left-logo1 {
+  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3));
+}
+
+.signup-pd input,
+.signup-pd1 input {
+  transition: all 0.3s ease;
+  border: 1px solid #007bff;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.signup-pd input:focus,
+.signup-pd1 input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 8px rgba(23, 195, 178, 0.4);
+}
+
+.signup-wrapper,
+.signup-wrapper1 {
+  width: 100%;
+  min-height: 100vh; 
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.signup-box,
+.signup-box1 {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.signup-right,
+.signup-right1 {
+  flex: 1;
+  padding: 40px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.signup-right::-webkit-scrollbar,
+.signup-right1::-webkit-scrollbar {
+  display: none;
+}
+
+/* Display Picture */
+.your-dp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #960d0d;
+  display: block;
+  margin: 5px auto;
+}
+
+.teaching-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.teaching-row input,
+.teaching-row select {
+  flex: 1;
+  min-width: 150px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.buttonCont {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.registerbtn {
+  background-color: rgb(25, 127, 147);
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  width: 50%;
+  max-width: 300px;
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  margin-right: 7px;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.login-link span {
+  color: var(--primary-color);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-link span:hover {
+  text-decoration: underline;
+}
+
+/* DASHBOARD ENHANCEMENTS */
+/* Enhanced UI/UX CSS Styles - Modern, Creative, Technical Vibe */
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slideUpFade {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+
+
+:root {
+  --primary-color: #007bff;
+  --accent-color: #17c3b2;
+  --bg-color: #f5f7fb;
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --card-bg: white;
+  --tech-bg: linear-gradient(145deg, #f0f4f9, #e4ebf5);
+  --tech-header: #1f1f2e;
+}
+
+/* DASHBOARD ENHANCEMENTS */
+.dashboard {
+  animation: fadeIn 1s ease-in-out;
+  background: var(--tech-bg);
+  padding: 60px;
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e1e8f2;
+}
+
+.dashboard h1 {
+  text-align: center;
+  color: var(--tech-header);
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.take-attendance,
+.view-attendance {
+  animation: slideUpFade 0.6s ease-in-out;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+  border-left: 4px solid var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.take-attendance:hover,
+.view-attendance:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.take-attendance h2,
+.view-attendance h2 {
+  font-size: 24px;
+  color: #222c3d;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.take-attendance button,
+.view-attendance button {
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, background 0.3s ease;
+  animation: pulseBorder 2s infinite;
+  border: none;
+  margin-top: 10px;
+}
+
+.take-attendance button:hover,
+.view-attendance button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Animated container decoration */
+.dashboard::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  opacity: 0.1;
+  animation: pulseBorder 4s infinite;
+}
+
+.dashboard::after {
+  content: "";
+  position: absolute;
+  bottom: -60px;
+  left: -60px;
+  width: 180px;
+  height: 180px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  opacity: 0.08;
+  animation: pulseBorder 5s infinite;
+}
+
+
+.qr-code-cont {
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  align-items: flex-start;
+  transition: all 0.3s ease-in-out;
+  justify-content: flex-start;
+}
+
+.qrp {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  font-size: 16px;
+  color: #333;
+  width: 200px;
+}
+
+.qrp p {
+  margin: 8px 0;
+}
+
+.timer {
+  animation: scaleIn 0.5s ease-in-out;
+  color: #d9534f;
+  font-size: 18px;
+  font-weight: bold;
+  background: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.expired-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* ATTENDANCE TABLE */
+.attendance-records-container {
+  animation: fadeIn 0.7s ease-out;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.records-heading {
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.attendance-table th,
+.attendance-table td {
+  transition: background-color 0.3s ease;
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  min-width: 100px;
+}
+
+.attendance-table tr:hover {
+  background-color: #f0f8ff;
+}
+
+.present-status {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.absent-status {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.no-status {
+  color: #6c757d;
+}
+
+.attendance-search input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 300px;
+  transition: all 0.3s ease;
+}
+
+.attendance-search input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.qr-code:fullscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+}
+
+.qr-code:fullscreen svg{
+  width: 80vmin;
+  height: 80vmin;
+}
+
+/* Mobile Friendly */
+@media (max-width: 768px) {
+  .qr-code-cont {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .qrp {
+    width: 100%;
+    margin-top: 10px;
+  }
+} */
+
+
+
+
+
+
+/* 
+/* updated signup */
+.signup-wrapper {
+  width: 100%;
+  min-height: 100vh; 
+  background-color: #f5f7fb;;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px; 
+ 
+}
+
+/* Signup Box */
+.signup-box {
+  width: 95%;
+  max-width: 1200px; 
+  height: 95vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Left Section  */
+.signup-left {
+  width: 40%;
+  background-color: #007bff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px; 
+}
+
+.signup-left-logo {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.signup-left-heading {
+  color: white;
+  font-size: x-large;
+  margin-top: -70px;
+  font-display: inherit;
+}
+
+.signup-left-para {
+  color: white;
+  font-size: large;
+  margin-top: -10px;
+  text-align: center;
+}
+
+/* Right Section  */
+.signup-right {
+  /* width: 60%;  */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  padding: 40px; 
+  overflow: auto; 
+  scrollbar-width: none; 
+}
+
+.signup-right::-webkit-scrollbar {
+  display: none; 
+}
+
+/* Form Container */
+.signup-pd {
+  width: 100%;
+  max-width: 400px; 
+  display: flex;
+  flex-direction: column;
+  gap: 7px; 
+}
+
+/* Input Fields */
+.signup-pd input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.signup-pd input:hover {
+  transform: scale(1.05); 
+}
+
+/* Display Picture */
+.your-dp {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #960d0d; 
+  display: block;
+  margin: 5px auto; 
+}
+
+/* Teaching Details Row */
+.teaching-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.teaching-row input,
+.teaching-row select {
+  flex: 1;
+  min-width: 150px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #960d0d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.buttonCont {
+  display: flex;
+  justify-content: center;  
+  width: 100%;             
+  margin-top: 40px;
+}
+
+.registerbtn {
+  background-color: rgb(25, 127, 147);
+  color: white;
+  font-size: 20px;          
+  padding: 15px 30px;       
+  width: 50%;               
+  max-width: 300px;         
+  border: none;
+  border-radius: 5px;
+  text-align: center;       
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  margin-right: 7px;
+}
+
+.registerbtn:hover {
+  background-color: rgb(20, 100, 120);
+  transform: scale(1.05); 
+}
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.login-link {
+  text-align: center; /* Center the text */
+  margin-top: 10px; /* Add some spacing above the text */
+  font-size: 14px; /* Adjust font size */
+  color: #333; /* Text color */
+}
+
+.login-link span {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+.login-link span:hover {
+  text-decoration: underline;
+}
+
+
+/* Login */
+
+.signup-wrapper1 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+  padding: 20px; 
+  background-color: #f5f7fb;
+}
+
+.signup-box1 {
+  display: flex;
+  max-width: 1200px;
+  width: 100%; 
+  background-color: white; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+}
+
+.signup-left1 {   
+  width: 40%;
+  background-color: #007bff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px; 
+}
+
+.signup-left-logo1 {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding:10px;
+  box-sizing: border-box;
+}
+.signup-left-heading1 {
+  color: white;
+  font-size:x-large;
+  margin-top: -70px;
+  font-display:inherit;
+}
+
+.signup-left-para1 {
+  color: white;
+  font-size:large;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.signup-right1 {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  padding: 40px; 
+}
+
+.signup-right1::-webkit-scrollbar {
+  display: none;   
+}
+
+.signup-pd1 {
+  width: 100%;
+  max-width: 400px; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+.signup-pd1 input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #6d1010;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.signup-pd1 input:hover {
+  transform: scale(1.05);
+}
+
+/* Dashboard */
+.dashboard {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Dashboard Heading */
+.dashboard h1 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Take Attendance Section */
+.take-attendance {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.take-attendance-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.take-attendance h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.take-attendance label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.take-attendance select,
+.take-attendance input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.take-attendance button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.take-attendance button:hover {
+  background-color: #0056b3;
+}
+
+/* View Attendance Records Section */
+.view-attendance {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.view-attendance h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.view-attendance button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.view-attendance button:hover {
+  background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 10px;
+  }
+
+  .take-attendance,
+  .view-attendance {
+    padding: 15px;
+  }
+
+  .take-attendance select,
+  .take-attendance input {
+    font-size: 14px;
+  }
+
+  .take-attendance button,
+  .view-attendance button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+.expired-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.expired-buttons button {
+  padding: 8px 16px;
+  margin: 5px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* branch button */
+.branch-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.branch-button {
+  padding: 10px 15px;
+  background-color: #0056b3;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+.branch-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* QR Code */
+.qr-code-cont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.qr-code {
+  flex: 0 0 auto;
+}
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff0000;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.qrp {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  width: 200px;
+}
+
+.qrp p {
+  margin: 8px 0;
+}
+
+/* Enhanced UI/UX CSS Styles */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+:root {
+  --primary-color: #007bff;
+  --accent-color: #17c3b2;
+  --bg-color: #f5f7fb;
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --card-bg: white;
+}
+
+/* Rest of your enhanced styles remain exactly the same */
+/* ... (all other existing styles remain unchanged) ... */
+
+.qr-code:fullscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+}
+
+.qr-code:fullscreen svg {
+  width: 80vmin;
+  height: 80vmin;
+}
+
+/* Mobile Friendly */
+@media (max-width: 768px) {
+  .qr-code-cont {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .qrp {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
